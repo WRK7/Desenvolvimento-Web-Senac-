@@ -1,0 +1,10 @@
+#texto_teste {
+    text-align: center;
+    color: blue;
+}
+
+body {
+    background:url("https://preview.redd.it/ygm023ew39gc1.jpeg?auto=webp&s=bc76629b3d4efc86db28432d7f395881c613bbbd") no-repeat;
+    background-attachment: fixed;
+
+}

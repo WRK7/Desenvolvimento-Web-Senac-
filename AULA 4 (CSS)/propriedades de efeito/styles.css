@@ -1,0 +1,38 @@
+h1 {
+    color:aquamarine;
+}
+
+
+/* img {
+    border-color: red;
+} */
+
+/* img {
+    border-style: double; /*hidden, solid }
+*/
+
+/* img {
+    border-width: 10px;
+} */
+
+/* img {
+    border-radius: 5px;
+} */
+
+#img1 {
+    box-shadow: 10px 10px 8px black;
+}
+
+#img2 {
+    margin: 10px;
+    box-shadow: 10px 10px 8px black;
+}
+
+/* img {
+    border-bottom-right-radius: 20px;
+} */
+
+
+/* img {
+    opacity: 0.5;
+} */

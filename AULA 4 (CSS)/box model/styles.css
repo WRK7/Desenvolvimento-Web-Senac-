@@ -1,0 +1,27 @@
+#imagem1 {
+
+    border-style: double;
+    border-color: red;
+    box-sizing: border-box;
+    width: 600;
+    height: 600;
+    padding: 600;
+    margin: 600;
+
+}
+
+
+
+#imagem2 {
+
+    border-style: double;
+    border-color: red;
+    box-sizing:content-box;
+    width: 600;
+    height: 600;
+    padding: 600;
+    margin: 600;
+
+}
+
+
