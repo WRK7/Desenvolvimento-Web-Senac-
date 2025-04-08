@@ -1,0 +1,11 @@
+#TESTE_DIREITA {
+   text-align: right; 
+   color: red;
+}
+
+#TESTE_SERIF_NO_MEIO {
+    text-align: center;
+    color:greenyellow;
+    font-size: 44px;
+    font: Arial, sans-serif;
+}
