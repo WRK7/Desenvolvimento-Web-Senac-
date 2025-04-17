@@ -4,18 +4,28 @@ body {
 
 
 #menu_de_navegação {
-    color:grey;
+    color: grey;
     position: absolute;
-    align-items: center;
-    top: 103%;
-    left: 13%;
+    top: 102%;
+    left: 0; 
+    width: 95%;
+    background-color: #2E2A4A; 
     font-size: 3em;
     padding: 0 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#menu_de_navegação {
+    float: none;
 }
 
 #menu_de_navegação a{
+    display: inline;
     color: white;
-    padding: 0px 16px;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -23,14 +33,32 @@ body {
 #menu_de_navegação a:hover{
     background-color: #fff;
     color: red;
-
-
 }
+
+#menu_de_navegação a.active {
+    background-color: #04AA6D;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
 
 #nasa_home_1 {
     width: 100%;
     height: 850px;
-    border-radius: 2%;
+    
+    
+}
+
+#nasa_novidade_1 {
+    width: 100%;
+    height: 850px;
     
     
 }
@@ -43,6 +71,17 @@ body {
     color: white;
     font-size: 5em;
     text-align: left;
+    padding: 0 10px;
+}
+
+#h1_novidades_da_nasa {
+    position: absolute;
+    top: 42%;        
+    left: 17%;         
+    transform: translateY(-50%); 
+    color: white;
+    font-size: 7em;
+    text-align: center;
     padding: 0 10px;
 }
 
@@ -113,5 +152,14 @@ body {
     
 }
 
-
+#h1_bem_vindo {
+    position: absolute;
+    top: 117%;        
+    left: 20%;         
+    transform: translateY(-50%); 
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 0 10px;
+}
 
