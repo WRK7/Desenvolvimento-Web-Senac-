@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: coral;
+            width: 200px;
+            height: 65px;
+            border: 1px solid;
+            /* overflow: hidden; */ 
+            /* esconde o conteúdo que passa da caixa */
+            /* overflow: visible; */
+            /* mostra o conteúdo que passa da caixa */
+            /* overflow: scroll; */
+            /* adiciona uma barra de rolagem horizontal e vertical na caixa */
+            /* overflow: auto; */
+            /* adiciona uma barra de rolagem se necessário */
+            overflow: scroll;
+            overflow-x: hidden;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Overflow:visible</h2>
+
+    <p>Por padrão, o transbordamento é visicel, o que significa que não é cortado e ele se renderiza fora da caixa do elemento</p>
+
+    <div>Você pode usar a propriedade Overflow quando deseja ter um melhor controle do layout. A propriedade Overflow especifica o que acontece se o conteúdo transborda da caixa de um elemento.</div>
+</body>
+
+</html>
