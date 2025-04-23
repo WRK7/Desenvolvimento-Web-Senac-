@@ -1,0 +1,200 @@
+.container {
+    display: flex;
+    gap: 15px; /* Espaço entre os cards */
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+
+.mona1 img, .mona2 img, .mona3 img, .mona4 img, .mona5 img {
+    object-position: 10% 50%; /* Desloca a imagem para a direita */
+}
+
+body {
+    background: linear-gradient(rgb(165, 247, 250), rgba(43, 255, 255, 0.925),rgb(22, 223, 223));
+}
+
+
+.mona1 {
+    background-color: blue;
+    box-sizing: border-box;
+    width: 18vw;
+    height: 80vh;
+    border: 2px solid;
+    /* overflow: hidden; */
+    /* esconde o conteúdo que passa da caixa */
+    overflow: hidden;
+    /* mostra o conteúdo que passa da caixa */
+    /* overflow: scroll; */
+    /* adiciona uma barra de rolagem horizontal e vertical na caixa */
+    /* overflow: auto; */
+    /* adiciona uma barra de rolagem se necessário */
+    /* overflow: scroll;
+    overflow-x: hidden; */
+    border-radius: 5%;
+    box-shadow: 3px 23px 20px 0px #333333;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.mona1 p {
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: break-all;
+    color: aqua;
+    font-size: 19.2px;
+}
+
+
+.mona1 img {
+
+    width: 100%;
+    
+
+    margin-right: 0px;
+    padding: 0px;
+
+
+
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    margin: 0px;
+}
+
+.mona2 {
+    background-color: cyan;
+    box-sizing: border-box;
+    width: 18vw;
+    height: 80vh;
+    border: 2px solid;
+    /* overflow: hidden; */
+    /* esconde o conteúdo que passa da caixa */
+    overflow: hidden;
+    /* mostra o conteúdo que passa da caixa */
+    /* overflow: scroll; */
+    /* adiciona uma barra de rolagem horizontal e vertical na caixa */
+    /* overflow: auto; */
+    /* adiciona uma barra de rolagem se necessário */
+    /* overflow: scroll;
+    overflow-x: hidden; */
+    border-radius: 5%;
+    box-shadow: 3px 23px 20px 0px #333333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mona2 p {
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: break-all;
+    color:red;
+    font-size: 19.2px;
+}
+
+
+.mona2 img {
+    width: 100%;
+
+    margin-right: 10px;
+
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    margin-right: 0;
+}
+
+
+.mona3 {
+    background-color: rgb(67, 151, 137); 
+    box-sizing: border-box;
+    width: 18vw;
+    height: 80vh;
+    border: 2px solid;
+    overflow: hidden;
+    border-radius: 5%;
+    box-shadow: 3px 23px 20px 0px #333333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mona3 img {
+    width: 100%;
+    margin-right: 0;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+}
+
+.mona3 p {
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: break-all;
+    color:green;
+    font-size: 19.2px;
+}
+
+.mona4 {
+    background-color: orange; 
+    box-sizing: border-box;
+    width: 18vw;
+    height: 80vh;
+    border: 2px solid;
+    overflow: hidden;
+    border-radius: 5%;
+    box-shadow: 3px 23px 20px 0px #333333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mona4 img {
+    width: 100%;
+    margin-right: 0;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+}
+
+.mona4 p {
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: break-all;
+    color: cyan;
+    font-size: 19.2px;
+}
+
+.mona5 {
+    background-color: rgb(131, 5, 5); 
+    box-sizing: border-box;
+    width: 18vw;
+    height: 80vh;
+    border: 2px solid;
+    overflow: hidden;
+    border-radius: 5%;
+    box-shadow: 3px 23px 20px 0px #333333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mona5 img {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+}
+
+.mona5 p {
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: break-all;
+    color:grey;
+    font-size: 19.2px;
+}
+
+
+
+
